@@ -1,0 +1,14 @@
+\usepackage{tikz-cd}
+
+\begin{document}
+\[\begin{tikzcd}
+        & 0001 \ar[rrrrrr, dash] \ar[dddddd, dash] \ar[ddrr, dash, orange] &&&&&& 0011 \ar[dddddd, dash, blue] \ar[lldd, dash, bend right=20] \\
+        0000 \ar[ddrr, dash, crossing over, red] \ar[rrrrrr, dash, crossing over, red] \ar[dddddd, dash, red] \ar[ru, dash, red] &&&&&& 0010 \ar[ru, dash] \\
+        &&& 1001 \ar[rr, dash, orange] \ar[dd, dash, orange] && 1011 \ar[dd, dash] \\
+        && 1000 \ar[rr, dash, crossing over] \ar[ru, dash, orange] && 1010 \ar[ru, dash] \ar[uurr, dash, bend right=20, crossing over] \\
+        &&& 1101 \ar[rr, dash] \ar[ddll, dash, bend right=20] && 1111 \ar[dl, dash, green] \\
+        && 1100 \ar[uu, dash, crossing over] \ar[ur, dash] \ar[rr, dash, green] && 1110 \ar[uu, dash, crossing over, green] \\
+        & 0101 \ar[rrrrrr, dash, blue] &&&&&& 0111 \ar[dl, dash, blue] \ar[lluu, dash, blue] \\
+        0100 \ar[ur, dash] \ar[uurr, dash, bend right=20, crossing over] \ar[rrrrrr, dash] &&&&&& 0110 \ar[uull, dash, crossing over, green] \ar[uuuuuu, dash, crossing over]
+\end{tikzcd}\]
+\end{document}
